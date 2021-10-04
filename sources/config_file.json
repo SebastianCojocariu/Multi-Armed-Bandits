@@ -1,0 +1,9 @@
+{
+	"file_path": "../dataset/ydata-fp-td-clicks-v2_0.20111011",
+	"limit_size": 100000,
+	"policy_name": "ContextualEpsilonGreedy",
+	"args":{
+		"policy_args": {"p": 0.2, "decay": 0.9997, "threshold_retrain_percent": 0.2, "states_heuristics": true},
+		"model_args": {"class_model_name": "SVC", "model_args": {"probability": true}}
+	}
+}
